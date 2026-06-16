@@ -9,7 +9,9 @@ Typical usage:
     total = add(10, 20)
     temp_f = celsius_to_fahrenheit(37)
 """
+# temperature in celcious
 
+# temperature in fahrenheit
 
 def add(a: float, b: float) -> float:
     """
@@ -20,7 +22,7 @@ def add(a: float, b: float) -> float:
         b (float): Second operand.
 
     Returns:
-        float: The sum a + b.
+        float: The sum a + b. 
 
     Examples:
         >>> add(2, 3)
