@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>programming with Python: module math_utils</title>
+</head><body>
+
+<table class="heading">
+<tr class="heading-text decor">
+<td class="title">&nbsp;<br><strong class="title">math_utils</strong></td>
+<td class="extra"><a href=".">index</a><br><a href="file:c%3A%5Cusers%5Cadministrator%5Cdesktop%5Cai%20and%20ml%5Cpython-exe%5Cmath_utils.py">c:\users\administrator\desktop\ai and ml\python-exe\math_utils.py</a></td></tr></table>
+    <p><span class="code">math_utils&nbsp;—&nbsp;Basic&nbsp;mathematical&nbsp;utility&nbsp;functions.<br>
+&nbsp;<br>
+This&nbsp;module&nbsp;provides&nbsp;helper&nbsp;functions&nbsp;for&nbsp;common&nbsp;arithmetic&nbsp;operations<br>
+and&nbsp;temperature&nbsp;conversions,&nbsp;with&nbsp;input&nbsp;validation.<br>
+&nbsp;<br>
+Typical&nbsp;usage:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;from&nbsp;math_utils&nbsp;import&nbsp;add,&nbsp;celsius_to_fahrenheit<br>
+&nbsp;&nbsp;&nbsp;&nbsp;total&nbsp;=&nbsp;<a href="#-add">add</a>(10,&nbsp;20)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;temp_f&nbsp;=&nbsp;<a href="#-celsius_to_fahrenheit">celsius_to_fahrenheit</a>(37)</span></p>
+<p>
+<table class="section">
+<tr class="decor functions-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><strong class="bigsection">Functions</strong></td></tr>
+    
+<tr><td class="decor functions-decor"><span class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td><td>&nbsp;</td>
+<td class="singlecolumn"><dl><dt><a name="-add"><strong>add</strong></a>(a: float, b: float) -&gt; float</dt><dd><span class="code">Return&nbsp;the&nbsp;arithmetic&nbsp;sum&nbsp;of&nbsp;a&nbsp;and&nbsp;b.<br>
+&nbsp;<br>
+Args:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;a&nbsp;(float):&nbsp;First&nbsp;operand.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;b&nbsp;(float):&nbsp;Second&nbsp;operand.<br>
+&nbsp;<br>
+Returns:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;float:&nbsp;The&nbsp;sum&nbsp;a&nbsp;+&nbsp;b.<br>
+&nbsp;<br>
+Examples:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;&gt;&gt;&nbsp;<a href="#-add">add</a>(2,&nbsp;3)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;5<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;&gt;&gt;&nbsp;<a href="#-add">add</a>(-1.5,&nbsp;1.5)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;0.0</span></dd></dl>
+ <dl><dt><a name="-celsius_to_fahrenheit"><strong>celsius_to_fahrenheit</strong></a>(c: float) -&gt; float</dt><dd><span class="code">Convert&nbsp;a&nbsp;temperature&nbsp;from&nbsp;Celsius&nbsp;to&nbsp;Fahrenheit.<br>
+&nbsp;<br>
+Args:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;c&nbsp;(float):&nbsp;Temperature&nbsp;in&nbsp;degrees&nbsp;Celsius.<br>
+&nbsp;<br>
+Returns:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;float:&nbsp;Equivalent&nbsp;temperature&nbsp;in&nbsp;degrees&nbsp;Fahrenheit.<br>
+&nbsp;<br>
+Examples:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;&gt;&gt;&nbsp;<a href="#-celsius_to_fahrenheit">celsius_to_fahrenheit</a>(0)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;32.0<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;&gt;&gt;&nbsp;<a href="#-celsius_to_fahrenheit">celsius_to_fahrenheit</a>(100)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;212.0</span></dd></dl>
+ <dl><dt><a name="-is_even"><strong>is_even</strong></a>(n: int) -&gt; bool</dt><dd><span class="code">Return&nbsp;True&nbsp;if&nbsp;n&nbsp;is&nbsp;even,&nbsp;False&nbsp;otherwise.<br>
+&nbsp;<br>
+Args:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;n&nbsp;(int):&nbsp;The&nbsp;integer&nbsp;to&nbsp;test.<br>
+&nbsp;<br>
+Returns:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;bool:&nbsp;True&nbsp;when&nbsp;n&nbsp;is&nbsp;divisible&nbsp;by&nbsp;2.<br>
+&nbsp;<br>
+Examples:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;&gt;&gt;&nbsp;<a href="#-is_even">is_even</a>(4)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;True<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;&gt;&gt;&nbsp;<a href="#-is_even">is_even</a>(7)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;False</span></dd></dl>
+ <dl><dt><a name="-safe_divide"><strong>safe_divide</strong></a>(a: float, b: float) -&gt; float</dt><dd><span class="code">Divide&nbsp;a&nbsp;by&nbsp;b.<br>
+&nbsp;<br>
+Args:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;a&nbsp;(float):&nbsp;Numerator.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;b&nbsp;(float):&nbsp;Denominator.&nbsp;Must&nbsp;not&nbsp;be&nbsp;zero.<br>
+&nbsp;<br>
+Returns:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;float:&nbsp;The&nbsp;quotient&nbsp;a&nbsp;/&nbsp;b.<br>
+&nbsp;<br>
+Raises:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;ValueError:&nbsp;If&nbsp;b&nbsp;is&nbsp;zero.<br>
+&nbsp;<br>
+Examples:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&gt;&gt;&gt;&nbsp;<a href="#-safe_divide">safe_divide</a>(10,&nbsp;2)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;5.0</span></dd></dl>
+</td></tr></table>
+</body></html>
